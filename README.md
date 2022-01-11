@@ -12,11 +12,11 @@ For this script to work, you have to :
 
 
 ## Test :
-- To test if this works on gmail, write the following on the search bar:
+1. To test if this works on gmail, write the following on the search bar:
 `in:{folder you chose to delete from} from:{email of the sender} after:{first date to start deleting from}`
-- example:
+  example:
 `in:inbox from:info@meetup.com after:01/04/2022`
-- launch the script :
+2. launch the script :
 python automate_mail_deletion.py
 
 ## Further use :
