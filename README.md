@@ -7,7 +7,7 @@ Python script that deletes all emails with specified criteria.
 
 For this script to work, you have to :
 1. Make sure imap is enabled in your provider, for google, the provider I'll be using, here's how to [enable imap](https://support.google.com/mail/answer/7126229?hl=en) if it isn't.
-2. [Allow less secure apps](https://support.google.com/accounts/answer/6010255?hl=en) such as this one to be have access to your mail account
+2. [Allow less secure apps] such as this one to be have access to your mail account. To do so, [generate a specific password for this app](https://myaccount.google.com/security). when asked for the name of the app, copy paste: automatic_mail_deletion
 
 
 # To test if this works on gmail, write the following on the search bar:
