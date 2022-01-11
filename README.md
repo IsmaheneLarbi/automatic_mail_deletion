@@ -16,6 +16,12 @@ For this script to work, you have to :
 `in:{folder you chose to delete from} from:{email of the sender} after:{first date to start deleting from}`
 - example:
 `in:inbox from:info@meetup.com after:01/04/2022`
+- If you want to change the folder you're selecting:
+`imap.select('"folder of your choice"')`
+- You can list all the folders using  `imap.list()` before the select
+- If you want to change the criteria, change the second parameter of this instruction:
+`imap.search(None, "FROM 'info@meetup.com' SINCE '02-Jan-2022'")`
+
 you can look up the gmail search operators [here.](https://support.google.com/mail/answer/7190?hl=en)
 launch the script :
 python automate_mail_deletion.py

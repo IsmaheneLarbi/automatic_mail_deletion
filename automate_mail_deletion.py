@@ -1,5 +1,4 @@
 import imaplib
-import time
 
 provider = "gmail"
 username = f"youraddress@{provider}.com"
