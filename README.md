@@ -10,10 +10,11 @@ For this script to work, you have to :
 2. [Allow less secure apps] such as this one to be have access to your mail account. To do so, [generate a specific password for this app](https://myaccount.google.com/security). when asked for the name of the app, copy paste: automatic_mail_deletion
 
 
-# To test if this works on gmail, write the following on the search bar:
-in:inbox from:info@meetup.com after:01/04/2022
-and watch them disappear!
+### To test if this works on gmail:
+- write the following on the search bar:
 in:{folder you chose to delete from} from:{email of the sender} after:{first date to start deleting from}
+- example:
+`in:inbox from:info@meetup.com after:01/04/2022`
 you can look up the gmail search operators [here.](https://support.google.com/mail/answer/7190?hl=en)
 launch the script :
 python automate_mail_deletion.py
