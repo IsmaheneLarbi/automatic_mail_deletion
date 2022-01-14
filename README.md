@@ -8,7 +8,7 @@ Python script that deletes all emails with specified criteria.
 ## Requirements :
 For this script to work, you have to :
 1. Make sure imap is enabled in your account settings. For google, the provider I'll be using, here's how to [enable imap](https://support.google.com/mail/answer/7126229?hl=en) if it isn't.
-2. Allow less secure apps such as this one to be have access to your mail account. To do so, [generate a specific password for this app](https://myaccount.google.com/security). when asked for the name of the app, copy paste: automatic_mail_deletion
+2. Allow less secure apps such as this one to have access to your mail account. To do so, [generate a specific password for this app](https://myaccount.google.com/security). when asked for the name of the app, copy paste: automatic_mail_deletion
 
 
 ## Test :
@@ -18,6 +18,7 @@ example:
 `in:inbox from:info@meetup.com after:01/04/2022`
 2. launch the script :
 python automate_mail_deletion.py
+3. Refresh your providers page
 
 ## Further use :
 - If you want to change the folder you're selecting:
